@@ -3,7 +3,7 @@ const express = require('express');
 
 (async () => {
     const app = express()
-    const port = process.env.API_PORT || 3000
+    const port = process.env.API_PORT || 3030
     let i = 0
 
     app.listen(port, () => {
